@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        /* background-image: url(https://i.pinimg.com/originals/0a/59/4d/0a594d9fc6ffd84ca2b997a32e91556f.jpg); */
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .page1{
+    height:650px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/0a/59/4d/0a594d9fc6ffd84ca2b997a32e91556f.jpg);
+    background-size: cover;
+    filter: blur(5px);
+    position: relative;
+    }
+
+    .page{
+    width: 33%;
+    height: 460px;
+    background-color: gray;
+    margin: -500px 417px;
+    position: relative;
+    opacity: 0.5;
+    border-radius: 20px;
+    }
+    .profile{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin: 20px 137px;
+    }
+    .box{
+    background-color: blue;
+    width: 70%;
+    height: 61px;
+    position: absolute;
+    margin: 180px 63px;
+    border-radius: 10px;
+    
+
+    }
+     
+    h1{
+    font-size: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: 10px;
+
+            
+    }
+    h2 {
+    font-size: 23px;
+    margin: 254px 9px;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    }
+    h3 {
+    font-size: 23px;
+    margin: 295px 8px;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    }
+    h4 {
+    font-size: 34px;
+    margin: 336px 8px;
+    position: absolute;
+    width: 400px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .bird{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin: 14px 265px;
+    }
+
+    button{
+        width: 86px;
+    height: 39px;
+    border-radius: 10px;
+    background-color: blue;
+    position: absolute;
+    margin: 398px 300px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    }
+    </style>
+</head>
+<body onload="profileData()">
+    <div class="page1">
+    </div>
+    <div class="page">
+        <img class="profile" src="pngfind.com-placeholder-png-6104451.png" alt="">
+        <img class="bird" src="kisspng-logo-design-art-image-corporate-identity-5bff201482a6d6.3033414015434465485352.png" alt="">
+        <div class="box"> <h1 id="fname"></h1></div>
+        <h2 id="mailid"></h2>
+        <h3 id="dateofbirth"></h3>
+        <h4 id="mobile"></h4>
+        <button type="button" onclick="logout()">Log out</button>
+        
+        
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
