@@ -85,7 +85,6 @@ let mobnumber= localStorage.getItem('mobnumber');
 }
 
 function login(){
-    debugger
     let a=document.getElementById('username').value;
     let b= document.getElementById('password').value;
     // let user=localStorage.getItem('email');
