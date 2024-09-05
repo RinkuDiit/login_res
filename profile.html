@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
     <style>
        body{
         /* background-image: url(https://i.pinimg.com/originals/0a/59/4d/0a594d9fc6ffd84ca2b997a32e91556f.jpg); */
@@ -12,21 +12,22 @@
         font-family: sans-serif;
     }
     .page1{
-    height:650px;
+    height:100vh;
     width: 100%;
     background-image: url(https://i.pinimg.com/originals/0a/59/4d/0a594d9fc6ffd84ca2b997a32e91556f.jpg);
     background-size: cover;
-    filter: blur(5px);
+    filter: blur(0px);
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     }
 
     .page{
     width: 33%;
     height: 460px;
-    background-color: gray;
-    margin: -500px 417px;
+    background-color: rgba(128, 128, 128, 0.607);
     position: relative;
-    opacity: 0.5;
     border-radius: 20px;
     }
     .profile{
@@ -103,7 +104,7 @@
 </head>
 <body onload="profileData()">
     <div class="page1">
-    </div>
+ 
     <div class="page">
         <img class="profile" src="pngfind.com-placeholder-png-6104451.png" alt="">
         <img class="bird" src="kisspng-logo-design-art-image-corporate-identity-5bff201482a6d6.3033414015434465485352.png" alt="">
@@ -116,7 +117,7 @@
         
         
     </div>
-
+</div>
     <script src="main.js"></script>
 </body>
 </html>

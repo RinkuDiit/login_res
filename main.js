@@ -132,3 +132,8 @@ function logout(){
 
 
 }
+
+function regisreationss(){
+    location.href = "register.html"
+
+}
