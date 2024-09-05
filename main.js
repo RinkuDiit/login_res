@@ -44,7 +44,7 @@ function insertFunc(){
         }  
 
 
-        location.href = "http://127.0.0.1:5500/instalogin.html"
+        location.href = "instalogin.html"
         
     }else{
         alert("Password does not match");
@@ -65,7 +65,7 @@ function profileData(){
 debugger
 let mobnumber= localStorage.getItem('mobnumber');
     if(mobnumber==null){
-        location.href = "file:///D:/My%20Project/HTML,%20CSS%20&%20JS%20Projects/Login%20page/instalogin.html";
+        location.href = "instalogin.html";
     }
     else{
         let getFname = localStorage.getItem('fullname');
@@ -101,7 +101,7 @@ function login(){
 
         if(b==passwordd){
             checkpassword=b;
-            location.href = "file:///D:/My%20Project/HTML,%20CSS%20&%20JS%20Projects/Login%20page/profile.html"
+            location.href = "profile.html"
         }else{
             alert("password does not match");
         } 
@@ -128,7 +128,7 @@ function logout(){
    
     // localStorage.removeItem("fullname");
     localStorage.clear();
-    location.href = "file:///D:/My%20Project/HTML,%20CSS%20&%20JS%20Projects/Login%20page/instalogin.html"
+    location.href = "instalogin.html"
 
 
 }
